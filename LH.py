@@ -12,7 +12,7 @@ try:
     SecretId = os.environ["SecretId"]
     SecretKey = os.environ["SecretKey"]
     region= os.environ["region"]
-    percent= 1 #流量限额，1表示使用到100%关机，默认设置为95%
+    percent= 0.99 #流量限额，1表示使用到100%关机，默认设置为95%
     tgBotUrl= os.environ["tgBotUrl"]
     tgToken= os.environ["tgToken"]
 
